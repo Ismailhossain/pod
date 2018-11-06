@@ -1,0 +1,98 @@
+/*
+
+To Display Form Input Text into Left Side
+
+*/
+
+.form-horizontal .control-label {
+
+    text-align: left !important;
+}
+
+/*
+
+To Display Success Message
+
+*/
+
+.hidemsg {
+    background: yellowgreen;
+}
+
+
+/*
+
+To Display Required Message
+
+*/
+
+.required label:after {
+    color: #FF0000;
+    content: ' *';
+    display:inline;
+}
+
+.containerRoleAdd{
+    display: none;
+}
+
+
+.sf-dump-index {
+    display: block !important;
+}
+.sf-dump-str {
+    display: block !important;
+}
+.sf-dump-key {
+    display: block !important;
+}
+
+
+.wrap-toolbar-btn {
+    padding: 5px 0 5px 0;
+    border-top: solid 3px #ddd;
+    border-bottom: solid 3px #ddd;
+    margin-bottom: 15px;
+}
+
+.bottom-spacing {
+    padding-bottom: 4px;
+}
+
+.tools-right {
+    text-align: right;
+}
+
+
+.k-grid td {
+    font-size: 13px;
+}
+
+.k-grid-header th.k-header {
+    font-size: 13px;
+}
+
+.k-edit-form-container tr {
+    line-height: 25px;
+    font-size: 13px;
+}
+
+.k-edit-form-container th {
+    padding-left: 15px;
+    padding-top: 10px;
+}
+
+#colorbox #cboxClose {
+    top: 4px;
+    right: 10px;
+    /*background: url(images/controls.png) no-repeat -50px 0;*/
+}
+
+#cboxLoadedContent {
+    margin-top: 28px;
+    margin-bottom: 0;
+}
+
+#ModalUser {
+    display: none;
+}
